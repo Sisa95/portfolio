@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+
+body {
+	margin: 0;
+	font-family: "Segoe UI", Roboto, Helvetica,
+		Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	transition: background-color 0.3s ease;
+	background-image: url("/images/bg.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+
+.image{
+	margin:auto !important;
+	width: 200px;
+}
+
+.ml2, .ml3 {
+	text-align: center;
+	font-weight: 900;
+	font-size: 2.5em;
+  }
+  
+  .ml2 .ml3 .letter {
+	text-align: center;
+	line-height: 1em;
+  }
+ 
+.container {
+	width: 100%;
+}
+
+.demo {
+	width: 100%;
+	max-width: 600px;
+	position: relative;
+	top: 60px;
+	background-color: rgba(255, 251, 251, 0.548);
+	margin: 45px auto;
+	padding: 10px 30px;
+	text-align: center;
+	border-radius: 6px;
+	text-align: left;
+	color: black;
+	opacity: 0;
+	transition: all 0.3s ease;
+}
+
+.demo.active {
+	opacity: 1;
+	top: 0;
+}
+
+#revealPoint {
+	position: fixed;
+	height: 20px;
+	width: 100%;
+	left: 0;
+	bottom: 150px;
+	color: red;
+	padding: 7px;
+	margin: 0;
+	border-bottom: 1px solid red;
+}
+
+h3{
+	font-family: 'Reggae One', cursive;
+}
+
+  .accordion-button {
+	background-color: #01579b;
+	color: white;
+	font: 20px Roboto, sans-serif;
+  }
+  .accordion-button:hover {
+	font: 21px Roboto, sans-serif;
+  }
+  .accordion-button:not(.collapsed) {
+	background-color: #0277bd;
+	color: white;
+  }
+  .accordion-item {
+	background-color: #e1f5fe;
+	font: 16px Roboto, sans-serif;
+  }
+  
+
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
