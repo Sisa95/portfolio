@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url(//db.onlinewebfonts.com/c/388d4c308786c84a30904847f46525c8?family=Intro+Rust+G+Base+2+Line);
 
 
 body {
 	margin: 0;
 	font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	background-image: url("/images/Half\ face.jpg");
-	background-size: 100%;
-	background-attachment: fixed;
-}
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
 
 .image{
 	margin:auto !important;
@@ -32,7 +33,7 @@ body {
 
 .demo {
 	width: 100%;
-	max-width: 600px;
+	max-width: 950px;
 	position: relative;
 	top: 60px;
 	background-color: rgba(255, 251, 251, 0.548);
@@ -78,10 +79,15 @@ h3{
   .accordion-button:not(.collapsed) {
 	background-color: #0277bd;
 	color: white;
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
   .accordion-item {
 	background-color: #e1f5fe;
 	font: 16px Roboto, sans-serif;
+    
   }
   
 
@@ -96,6 +102,15 @@ h4,
 h5,
 h6 {
     margin:  1% 0 1% 0;
+    font-family: "Intro Rust G Base 2 Line";
+}
+
+#accordionExample{
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 ._12 {
     font-size: 1.2em;
@@ -199,3 +214,4 @@ ul.social-icons {
 .fa-github:hover {
     background-color: #5a32a3;
 }
+
