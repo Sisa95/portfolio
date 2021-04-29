@@ -52,8 +52,9 @@
   border: solid blue;
   font-family: 'Lato';
   font-size: inherit;
-  color: white;
-  background-color: rgba(6, 146, 189, 0.897);
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   cursor: pointer;
   display: inline-block;
   text-transform: uppercase;
@@ -62,6 +63,7 @@
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
+  color: white !important;
 }
 .accordion_btn{
   border: none;

@@ -6,9 +6,8 @@ body {
 	margin: 0;
 	font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     background: #E6DADA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to right, #274046, #1f4037ab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #274046, #1f4037ab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
 .image{
@@ -45,6 +44,7 @@ body {
 	color: black;
 	opacity: 0;
 	transition: all 0.3s ease;
+
 }
 
 .demo.active {
@@ -79,10 +79,7 @@ h3{
   .accordion-button:not(.collapsed) {
 	background-color: #0277bd;
 	color: white;
-    background: #E6DADA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    
   }
   .accordion-item {
 	background-color: #e1f5fe;
@@ -103,15 +100,10 @@ h5,
 h6 {
     margin:  1% 0 1% 0;
     font-family: "Intro Rust G Base 2 Line";
+    
 }
 
-#accordionExample{
-    background: #E6DADA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
-}
 ._12 {
     font-size: 1.2em;
 }
